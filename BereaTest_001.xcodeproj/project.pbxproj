@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45C707B1198EAB5300FCB434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C707B0198EAB5300FCB434 /* Foundation.framework */; };
+		45C707B3198EAB5300FCB434 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C707B2198EAB5300FCB434 /* CoreGraphics.framework */; };
+		45C707B5198EAB5300FCB434 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C707B4198EAB5300FCB434 /* UIKit.framework */; };
+		45C707B7198EAB5300FCB434 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C707B6198EAB5300FCB434 /* CoreData.framework */; };
+		45C707BD198EAB5300FCB434 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45C707BB198EAB5300FCB434 /* InfoPlist.strings */; };
+		45C707BF198EAB5300FCB434 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C707BE198EAB5300FCB434 /* main.m */; };
+		45C707C3198EAB5300FCB434 /* SLRCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C707C2198EAB5300FCB434 /* SLRCAppDelegate.m */; };
+		45C707C6198EAB5300FCB434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C707C4198EAB5300FCB434 /* Main.storyboard */; };
+		45C707C9198EAB5300FCB434 /* BereaTest_001.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45C707C7198EAB5300FCB434 /* BereaTest_001.xcdatamodeld */; };
+		45C707CC198EAB5300FCB434 /* SLRCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C707CB198EAB5300FCB434 /* SLRCMasterViewController.m */; };
+		45C707CF198EAB5300FCB434 /* SLRCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C707CE198EAB5300FCB434 /* SLRCDetailViewController.m */; };
+		45C707D1198EAB5300FCB434 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C707D0198EAB5300FCB434 /* Images.xcassets */; };
+		45C707D8198EAB5300FCB434 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C707D7198EAB5300FCB434 /* XCTest.framework */; };
+		45C707D9198EAB5300FCB434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C707B0198EAB5300FCB434 /* Foundation.framework */; };
+		45C707DA198EAB5300FCB434 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C707B4198EAB5300FCB434 /* UIKit.framework */; };
+		45C707DB198EAB5300FCB434 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C707B6198EAB5300FCB434 /* CoreData.framework */; };
+		45C707E3198EAB5300FCB434 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45C707E1198EAB5300FCB434 /* InfoPlist.strings */; };
+		45C707E5198EAB5300FCB434 /* BereaTest_001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C707E4198EAB5300FCB434 /* BereaTest_001Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45C707DC198EAB5300FCB434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C707A5198EAB5300FCB434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C707AC198EAB5300FCB434;
+			remoteInfo = BereaTest_001;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45C707AD198EAB5300FCB434 /* BereaTest_001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BereaTest_001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C707B0198EAB5300FCB434 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45C707B2198EAB5300FCB434 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45C707B4198EAB5300FCB434 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45C707B6198EAB5300FCB434 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		45C707BA198EAB5300FCB434 /* BereaTest_001-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BereaTest_001-Info.plist"; sourceTree = "<group>"; };
+		45C707BC198EAB5300FCB434 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45C707BE198EAB5300FCB434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45C707C0198EAB5300FCB434 /* BereaTest_001-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BereaTest_001-Prefix.pch"; sourceTree = "<group>"; };
+		45C707C1198EAB5300FCB434 /* SLRCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLRCAppDelegate.h; sourceTree = "<group>"; };
+		45C707C2198EAB5300FCB434 /* SLRCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLRCAppDelegate.m; sourceTree = "<group>"; };
+		45C707C5198EAB5300FCB434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45C707C8198EAB5300FCB434 /* BereaTest_001.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BereaTest_001.xcdatamodel; sourceTree = "<group>"; };
+		45C707CA198EAB5300FCB434 /* SLRCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLRCMasterViewController.h; sourceTree = "<group>"; };
+		45C707CB198EAB5300FCB434 /* SLRCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLRCMasterViewController.m; sourceTree = "<group>"; };
+		45C707CD198EAB5300FCB434 /* SLRCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLRCDetailViewController.h; sourceTree = "<group>"; };
+		45C707CE198EAB5300FCB434 /* SLRCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLRCDetailViewController.m; sourceTree = "<group>"; };
+		45C707D0198EAB5300FCB434 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45C707D6198EAB5300FCB434 /* BereaTest_001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BereaTest_001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C707D7198EAB5300FCB434 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		45C707E0198EAB5300FCB434 /* BereaTest_001Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BereaTest_001Tests-Info.plist"; sourceTree = "<group>"; };
+		45C707E2198EAB5300FCB434 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45C707E4198EAB5300FCB434 /* BereaTest_001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BereaTest_001Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C707AA198EAB5300FCB434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C707B3198EAB5300FCB434 /* CoreGraphics.framework in Frameworks */,
+				45C707B7198EAB5300FCB434 /* CoreData.framework in Frameworks */,
+				45C707B5198EAB5300FCB434 /* UIKit.framework in Frameworks */,
+				45C707B1198EAB5300FCB434 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C707D3198EAB5300FCB434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C707D8198EAB5300FCB434 /* XCTest.framework in Frameworks */,
+				45C707DB198EAB5300FCB434 /* CoreData.framework in Frameworks */,
+				45C707DA198EAB5300FCB434 /* UIKit.framework in Frameworks */,
+				45C707D9198EAB5300FCB434 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C707A4198EAB5300FCB434 = {
+			isa = PBXGroup;
+			children = (
+				45C707B8198EAB5300FCB434 /* BereaTest_001 */,
+				45C707DE198EAB5300FCB434 /* BereaTest_001Tests */,
+				45C707AF198EAB5300FCB434 /* Frameworks */,
+				45C707AE198EAB5300FCB434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C707AE198EAB5300FCB434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C707AD198EAB5300FCB434 /* BereaTest_001.app */,
+				45C707D6198EAB5300FCB434 /* BereaTest_001Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C707AF198EAB5300FCB434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45C707B0198EAB5300FCB434 /* Foundation.framework */,
+				45C707B2198EAB5300FCB434 /* CoreGraphics.framework */,
+				45C707B4198EAB5300FCB434 /* UIKit.framework */,
+				45C707B6198EAB5300FCB434 /* CoreData.framework */,
+				45C707D7198EAB5300FCB434 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45C707B8198EAB5300FCB434 /* BereaTest_001 */ = {
+			isa = PBXGroup;
+			children = (
+				45C707C1198EAB5300FCB434 /* SLRCAppDelegate.h */,
+				45C707C2198EAB5300FCB434 /* SLRCAppDelegate.m */,
+				45C707C4198EAB5300FCB434 /* Main.storyboard */,
+				45C707CA198EAB5300FCB434 /* SLRCMasterViewController.h */,
+				45C707CB198EAB5300FCB434 /* SLRCMasterViewController.m */,
+				45C707CD198EAB5300FCB434 /* SLRCDetailViewController.h */,
+				45C707CE198EAB5300FCB434 /* SLRCDetailViewController.m */,
+				45C707D0198EAB5300FCB434 /* Images.xcassets */,
+				45C707C7198EAB5300FCB434 /* BereaTest_001.xcdatamodeld */,
+				45C707B9198EAB5300FCB434 /* Supporting Files */,
+			);
+			path = BereaTest_001;
+			sourceTree = "<group>";
+		};
+		45C707B9198EAB5300FCB434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C707BA198EAB5300FCB434 /* BereaTest_001-Info.plist */,
+				45C707BB198EAB5300FCB434 /* InfoPlist.strings */,
+				45C707BE198EAB5300FCB434 /* main.m */,
+				45C707C0198EAB5300FCB434 /* BereaTest_001-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45C707DE198EAB5300FCB434 /* BereaTest_001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				45C707E4198EAB5300FCB434 /* BereaTest_001Tests.m */,
+				45C707DF198EAB5300FCB434 /* Supporting Files */,
+			);
+			path = BereaTest_001Tests;
+			sourceTree = "<group>";
+		};
+		45C707DF198EAB5300FCB434 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C707E0198EAB5300FCB434 /* BereaTest_001Tests-Info.plist */,
+				45C707E1198EAB5300FCB434 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C707AC198EAB5300FCB434 /* BereaTest_001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C707E8198EAB5300FCB434 /* Build configuration list for PBXNativeTarget "BereaTest_001" */;
+			buildPhases = (
+				45C707A9198EAB5300FCB434 /* Sources */,
+				45C707AA198EAB5300FCB434 /* Frameworks */,
+				45C707AB198EAB5300FCB434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BereaTest_001;
+			productName = BereaTest_001;
+			productReference = 45C707AD198EAB5300FCB434 /* BereaTest_001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45C707D5198EAB5300FCB434 /* BereaTest_001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C707EB198EAB5300FCB434 /* Build configuration list for PBXNativeTarget "BereaTest_001Tests" */;
+			buildPhases = (
+				45C707D2198EAB5300FCB434 /* Sources */,
+				45C707D3198EAB5300FCB434 /* Frameworks */,
+				45C707D4198EAB5300FCB434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C707DD198EAB5300FCB434 /* PBXTargetDependency */,
+			);
+			name = BereaTest_001Tests;
+			productName = BereaTest_001Tests;
+			productReference = 45C707D6198EAB5300FCB434 /* BereaTest_001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C707A5198EAB5300FCB434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SLRC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sobrelaroca;
+				TargetAttributes = {
+					45C707D5198EAB5300FCB434 = {
+						TestTargetID = 45C707AC198EAB5300FCB434;
+					};
+				};
+			};
+			buildConfigurationList = 45C707A8198EAB5300FCB434 /* Build configuration list for PBXProject "BereaTest_001" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45C707A4198EAB5300FCB434;
+			productRefGroup = 45C707AE198EAB5300FCB434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C707AC198EAB5300FCB434 /* BereaTest_001 */,
+				45C707D5198EAB5300FCB434 /* BereaTest_001Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C707AB198EAB5300FCB434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C707D1198EAB5300FCB434 /* Images.xcassets in Resources */,
+				45C707BD198EAB5300FCB434 /* InfoPlist.strings in Resources */,
+				45C707C6198EAB5300FCB434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C707D4198EAB5300FCB434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C707E3198EAB5300FCB434 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C707A9198EAB5300FCB434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C707CC198EAB5300FCB434 /* SLRCMasterViewController.m in Sources */,
+				45C707C3198EAB5300FCB434 /* SLRCAppDelegate.m in Sources */,
+				45C707BF198EAB5300FCB434 /* main.m in Sources */,
+				45C707C9198EAB5300FCB434 /* BereaTest_001.xcdatamodeld in Sources */,
+				45C707CF198EAB5300FCB434 /* SLRCDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C707D2198EAB5300FCB434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C707E5198EAB5300FCB434 /* BereaTest_001Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45C707DD198EAB5300FCB434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C707AC198EAB5300FCB434 /* BereaTest_001 */;
+			targetProxy = 45C707DC198EAB5300FCB434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45C707BB198EAB5300FCB434 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C707BC198EAB5300FCB434 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45C707C4198EAB5300FCB434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C707C5198EAB5300FCB434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45C707E1198EAB5300FCB434 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C707E2198EAB5300FCB434 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C707E6198EAB5300FCB434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		45C707E7198EAB5300FCB434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45C707E9198EAB5300FCB434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BereaTest_001/BereaTest_001-Prefix.pch";
+				INFOPLIST_FILE = "BereaTest_001/BereaTest_001-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45C707EA198EAB5300FCB434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BereaTest_001/BereaTest_001-Prefix.pch";
+				INFOPLIST_FILE = "BereaTest_001/BereaTest_001-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		45C707EC198EAB5300FCB434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BereaTest_001.app/BereaTest_001";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BereaTest_001/BereaTest_001-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BereaTest_001Tests/BereaTest_001Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45C707ED198EAB5300FCB434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BereaTest_001.app/BereaTest_001";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BereaTest_001/BereaTest_001-Prefix.pch";
+				INFOPLIST_FILE = "BereaTest_001Tests/BereaTest_001Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C707A8198EAB5300FCB434 /* Build configuration list for PBXProject "BereaTest_001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C707E6198EAB5300FCB434 /* Debug */,
+				45C707E7198EAB5300FCB434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C707E8198EAB5300FCB434 /* Build configuration list for PBXNativeTarget "BereaTest_001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C707E9198EAB5300FCB434 /* Debug */,
+				45C707EA198EAB5300FCB434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45C707EB198EAB5300FCB434 /* Build configuration list for PBXNativeTarget "BereaTest_001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C707EC198EAB5300FCB434 /* Debug */,
+				45C707ED198EAB5300FCB434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45C707C7198EAB5300FCB434 /* BereaTest_001.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45C707C8198EAB5300FCB434 /* BereaTest_001.xcdatamodel */,
+			);
+			currentVersion = 45C707C8198EAB5300FCB434 /* BereaTest_001.xcdatamodel */;
+			path = BereaTest_001.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45C707A5198EAB5300FCB434 /* Project object */;
+}
